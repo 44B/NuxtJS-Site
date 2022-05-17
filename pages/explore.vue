@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul class="flex justify-center border-b">
+    <ul class="flex border-b flex justify-center">
       <li class="mr-1">
         <NuxtLink
           class="
@@ -32,14 +32,13 @@
         >
       </li>
     </ul>
-    <Tutorial />
+    <Explore />
   </div>
 </template>
 
 <script>
 import Vue from "vue";
-
 export default Vue.extend({
-  name: "IndexPage",
+  name: "ExplorePage",
 });
 </script>
