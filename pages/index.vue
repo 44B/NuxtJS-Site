@@ -1,5 +1,13 @@
 <template>
-  <Tutorial/>
+  <div>  
+    <div>
+      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/fun">Fun</NuxtLink>
+    </div>
+
+    <Tutorial />
+  </div>
+
 </template>
 
 <script>
